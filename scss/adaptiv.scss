@@ -1,0 +1,525 @@
+@media screen and (max-width: 1520px) {
+    .form {
+        &__btn-contacts {
+            width: 440px;
+            height: 60px;
+        }
+    }
+    .cont {
+        max-width: 91%;
+    }
+    .conts {
+        width: 770px;
+    }
+    .contacts {
+        &__box-text {
+            width: 98%;
+
+            margin: 0 auto;
+        }
+        .form {
+            &__contacts {
+                margin: 0 auto;
+            }
+
+            &__input-text {
+                width: 90%;
+                height: 120px;
+                padding: 10px 10px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1460px) {
+    .aboutus {
+        &__container-text {
+            margin-left: -80px;
+        }
+        &__cnt-img {
+            margin-left: -70px;
+        }
+    }
+    .cnt {
+        &__border-right {
+            margin-left: 295px;
+        }
+    }
+    .contact {
+        margin: 0 10px;
+    }
+    .cont {
+        margin: 0 auto;
+    }
+    .conts {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        display: flex;
+    }
+    .form {
+        &__input-contacts {
+            width: 28%;
+            height: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .header {
+        &__vertical-text {
+            font-weight: 300;
+            line-height: 30px;
+        }
+        &__title {
+            font-size: 56px;
+        }
+        &__container-center {
+            margin-left: -95px;
+        }
+    }
+    .box {
+        &__text-black {
+            max-width: 550px;
+        }
+    }
+    .section {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .container__text {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container__img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container__img-right {
+        margin-top: 40px;
+    }
+    .container__img-left {
+        margin: 0 auto;
+    }
+    .text__anim-right {
+        margin-top: 30px;
+    }
+    .section__white {
+        padding: 0;
+    }
+    .section__title-center {
+        padding-bottom: 0;
+    }
+    .form {
+        margin-left: 50px;
+        &__btn {
+            margin: 0 auto;
+        }
+    }
+    .slider {
+        padding: 0px 10px;
+        padding-bottom: 20px;
+    }
+    .section__slider {
+        padding: 20px 0;
+    }
+    .slider__container-text {
+        margin-top: 25px;
+    }
+    /*************** TABS ***********************/
+    #soupe:checked ~ .tab__box .content__soupe,
+    #pizza:checked ~ .tab__box .content__pizza,
+    #pasta:checked ~ .tab__box .content__pasta,
+    #desert:checked ~ .tab__box .content__desert,
+    #wine:checked ~ .tab__box .content__wine,
+    #beer:checked ~ .tab__box .content__beer,
+    #drinks:checked ~ .tab__box .content__drinks {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .tabs {
+        &__cnt-menu {
+            margin-bottom: 10px;
+            padding: 0 0 0 55px;
+        }
+    }
+    .private {
+        width: 100%;
+        &__container {
+            display: block;
+            margin: 0 auto;
+            margin: 50px 0;
+        }
+        &__box {
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        &__container-left {
+            margin: 0 auto;
+            margin-right: 50px;
+        }
+        &__container-right {
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    }
+    .form {
+        margin: 0 auto;
+        &__input-text {
+            width: 90%;
+            height: 120px;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+        &__btn-contacts {
+            width: 48%;
+            height: 60px;
+            overflow: hidden;
+            text-align: center;
+        }
+    }
+    .cont {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .conts {
+        width: 100%;
+        display: block;
+    }
+    .form {
+        &__input-contacts {
+            width: 90%;
+            height: 60px;
+        }
+    }
+}
+@media screen and (max-width: 960px) {
+    .drawer-list {
+        display: block;
+        width: 90%;
+        margin-right: 0;
+    }
+    .menu {
+        &__list {
+            width: 70%;
+            margin-top: 20px;
+            margin-left: 25%;
+        }
+    }
+    .header {
+        &__center-content {
+            margin-top: 41px;
+        }
+        &__vertical-text {
+            margin-left: -150px;
+        }
+    }
+    .logo {
+        margin-left: 5px;
+        margin-top: -50px;
+        &__img {
+            max-width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 850px) {
+    .cnt {
+        &__border {
+            display: none;
+        }
+    }
+    .cnt-img {
+        margin: 0 auto;
+    }
+    .img {
+        margin: 0 auto;
+    }
+    /************ TABS ****************/
+    .label {
+        margin: 0 10px;
+    }
+    .private {
+        &__container {
+            padding: 0;
+        }
+        &__box {
+            margin: 0 auto;
+        }
+        &__container-left {
+            margin: 0 auto;
+            transform: rotate(0deg);
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__img-left {
+            transform: rotate(90deg);
+        }
+        &__container-right {
+            margin: 0 auto;
+            margin-top: 30px;
+            transform: rotate(0deg);
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__img-right {
+            transform: rotate(-90deg);
+        }
+    }
+}
+@media screen and (max-width: 730px) {
+    .header {
+        &__center-content {
+            margin-top: -20px;
+            display: block;
+        }
+        &__vertical-text {
+            display: none;
+        }
+        &__title {
+            font-size: 50px;
+        }
+        &__container-social {
+            width: auto;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+        &__social-top {
+            margin-top: 0;
+        }
+        &__scrol {
+            margin-top: 50px;
+        }
+        &__container-center {
+            margin-left: 0;
+        }
+    }
+    .section-black {
+        width: 100%;
+        padding-bottom: 51px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .form {
+        margin: 0;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .text {
+        &__bold {
+            font-size: 16px;
+        }
+    }
+    .label {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 840px;
+        margin: 0 10px;
+    }
+    .tab {
+        margin-top: 15px;
+        border: 1px solid rgba(51, 51, 51, 0.2);
+    }
+    .tabs {
+        &__menu {
+            padding: 30px 0;
+        }
+        &__item {
+            padding: 0 8px;
+        }
+    }
+    .img__vertical-text {
+        display: none;
+    }
+    .form {
+        &__input-contacts {
+            width: 90%;
+            height: 60px;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .drawer-list {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu {
+        width: 50%;
+        display: flex;
+        &__list {
+            display: block;
+            margin: 0 auto;
+        }
+        &__item {
+            margin-bottom: 20px;
+        }
+    }
+    .header {
+        &__title {
+            font-size: 40px;
+            padding: 0 10px;
+            line-height: 60px;
+        }
+        &__center-content {
+            margin-top: 20px;
+        }
+        &__container-center {
+            margin-left: 0px;
+        }
+    }
+    .logo {
+        margin: 0 auto;
+        margin-top: -20px;
+    }
+    .tabs__content {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .tabs__cnt-menu {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 420px) {
+    .tabs__cnt-menu {
+        margin-left: -45px;
+        padding-right: 8px;
+    }
+    .private {
+        &__box-text {
+            font-size: 16px;
+        }
+    }
+}
+@media screen and (max-width: 350px) {
+    .header__container-btn {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .btn {
+        max-width: 200px;
+        overflow: hidden;
+    }
+    .form__booking {
+        &__input {
+            max-width: 100px;
+        }
+        &__input-option {
+            max-width: 120px;
+        }
+    }
+    .contacts__text {
+        padding: 0 8px;
+    }
+    .form {
+        &__contacts {
+            display: block;
+            width: 90%;
+        }
+        &__btn-contacts {
+            width: 90%;
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+        .cont {
+            margin-left: 5px;
+            max-width: 100%;
+        }
+        .conts {
+            width: 98%;
+            margin-left: 3px;
+            text-align: left;
+        }
+        .email-img {
+            display: none;
+        }
+        .email {
+            margin-left: 0;
+        }
+    }
+    .cont {
+        width: 100%;
+    }
+    .conts {
+        width: 98%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 274px) {
+    .private {
+        &__box-text {
+            display: none;
+        }
+    }
+}
+@media screen and (min-width: 1460px) {
+    .cont {
+        margin: 0 auto;
+        display: flex !important;
+        width: 91%;
+    }
+    .conts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 780px;
+    }
+    .form {
+        &__btn-contacts {
+            width: 48%;
+            height: 60px;
+            overflow: hidden;
+            text-align: center;
+            margin-right: 0;
+        }
+    }
+    .contacts {
+        &__box-text {
+            width: 98%;
+            margin: 0 auto;
+        }
+        .form {
+            &__contacts {
+                margin: 0 auto;
+            }
+            &__input-contacts {
+                width: 485px;
+                height: 60px;
+            }
+            &__input-text {
+                width: 90%;
+                height: 120px;
+                padding: 10px 10px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1250px) {
+    .header {
+        &__title {
+            font-size: 96px !important;
+        }
+    }
+}
+@media screen and (min-width: 500px) {
+    .header {
+        &__title {
+            line-height: 120px !important;
+        }
+    }
+}
