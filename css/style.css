@@ -1011,6 +1011,7 @@ iframe {
   opacity: 1;
 }
 
+/*PRELOADER*/
 .preloader {
   /*фиксированное позиционирование*/
   position: fixed;
@@ -1038,6 +1039,25 @@ iframe {
           animation: preloader-rotate 2s infinite linear;
 }
 
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #337ab7;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  -webkit-animation: preloader-bounce 2s infinite ease-in-out;
+          animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
 @-webkit-keyframes preloader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -1052,6 +1072,30 @@ iframe {
   }
 }
 
+@-webkit-keyframes preloader-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes preloader-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .loaded_hiding .preloader {
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
@@ -1060,8 +1104,4 @@ iframe {
 
 .loaded .preloader {
   display: none;
-}
-
-.preloader-img {
-  width: 100px;
 }
